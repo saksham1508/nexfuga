@@ -1,4 +1,4 @@
-# 🚀 NextTechFusionGadgets Express - Ultra-Fast Tech Commerce Platform
+# 🚀 NextTechFusionGadgets(NexFuga) - Ultra-Fast Tech Uni Commerce Platform
 
 A cutting-edge **Quick Commerce Platform** built with React, TypeScript, Node.js, and MongoDB. Featuring **10-15 minute delivery**, real-time tracking, AI-powered search, and all the advanced features used by industry leaders like **Blinkit, Zepto, and Instamart** - specifically designed for tech products and gadgets.
 
