@@ -1,0 +1,22 @@
+{
+  "name": "nexttechfusiongadgets",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "npm install --prefix frontend && npm install --prefix backend",
+    "start": "npm start --prefix backend",
+    "server": "npm start --prefix backend",
+    "client": "npm start --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "postinstall": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "mongoose": "^8.18.2",
+    "redis-server": "^1.2.2"
+  }
+}
